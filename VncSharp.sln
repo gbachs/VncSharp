@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30110.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VncSharp", "VncSharp\VncSharp.csproj", "{E0695F0F-0FAF-44BC-AE55-A1FCBFE70271}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiVncViewer", "VncSharp\MultiVncViewer.csproj", "{E0695F0F-0FAF-44BC-AE55-A1FCBFE70271}"
 EndProject
 Project("{E09DD79A-4488-4AB9-8D3F-A7EEE78BF432}") = "VncSharp.Nuget", "VncSharp.Nuget\VncSharp.Nuget.nuproj", "{73E83646-1D53-4DEC-950A-A48559E438E8}"
 EndProject
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2EF5619-60E7-4F7F-A3BB-27AC3A668EA0}
 	EndGlobalSection
 EndGlobal
